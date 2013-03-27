@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eventsblog</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="top-section">
+		<%= render :partial => 'topnav' %>
+	</div>
+	<div class="container-fluid app_width">
+    <div class="row-fluid">
+    		<div class="span2"></div>
+        <div class="span8">
+        	<%= yield %>
+        </div>
+        <div class="span2"></div>
+    </div>
+  </div>
+  <div class="footer">
+  	<%= render :partial => 'footer' %>
+  </div>
+</body>
+</html>

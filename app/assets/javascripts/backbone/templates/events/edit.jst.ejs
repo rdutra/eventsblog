@@ -1,0 +1,35 @@
+<h1>Edit event</h1>
+
+<form id="edit-event" name="event">
+  <div class="field">
+    <label for="title"> title:</label>
+    <input type="text" name="title" id="title" value="<%= title %>" >
+  </div>
+
+  <div class="field">
+    <label for="description"> description:</label>
+    <input type="text" name="description" id="description" value="<%= description %>" >
+  </div>
+
+  <div class="field">
+    <label for="start_date"> start_date:</label>
+    <input type="text" name="start_date" id="start_date" value="<%= start_date %>" >
+  </div>
+
+  <div class="field">
+    <label for="end_date"> end_date:</label>
+    <input type="text" name="end_date" id="end_date" value="<%= end_date %>" >
+  </div>
+
+  <div class="field">
+    <label for="location"> location:</label>
+    <input type="text" name="location" id="location" value="<%= location %>" >
+  </div>
+
+  <div class="actions">
+    <input type="submit" value="Update Event" />
+  </div>
+
+</form>
+
+<a href="#/index">Back</a>
