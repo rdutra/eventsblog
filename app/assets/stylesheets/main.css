@@ -4,10 +4,7 @@
 
 .app_width {
 	min-width: 800px;
-}
-
-.top-area {
-	background: none repeat scroll 0 0 red;
+	padding:0px!important;
 }
 
 .side-area {
@@ -16,13 +13,20 @@
 
 .content-area {
 	background: none repeat scroll 0 0 yellow;
+	min-height: 200px;
 }
 
-.bottom-area {
+.footer {
 	background: none repeat scroll 0 0 red;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:10%;
+	min-height: 60px;
 }
 
 .top-section{
+	background: none repeat scroll 0 0 red;
 	width:100%;
 	height:10%;
 	min-height: 100px;
